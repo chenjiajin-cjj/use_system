@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/job-admin.iml" filepath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/job-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/job-core.iml" filepath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/job-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jowim-jm-common/jowim-jm-cache/jowim-jm-cache.iml" filepath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-cache/jowim-jm-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/jowim-jm-job.iml" filepath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/jowim-jm-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jowim-jm-common/jowim-jm-mq/jowim-jm-mq.iml" filepath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-mq/jowim-jm-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/jowim-jm-ueditor.iml" filepath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/jowim-jm-ueditor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/jowim-jm-utils.iml" filepath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/jowim-jm-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jowim-jm-web/jowim-jm-web.iml" filepath="$PROJECT_DIR$/jowim-jm-web/jowim-jm-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/new_admin.iml" filepath="$PROJECT_DIR$/.idea/new_admin.iml" />
+    </modules>
+  </component>
+</project>

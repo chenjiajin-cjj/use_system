@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="job-admin:war">
+    <output-path>$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>job-admin</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="job-admin-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="job-admin:war exploded" />
+    </root>
+  </artifact>
+</component>

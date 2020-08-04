@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/chenjiajin_system.iml" filepath="$PROJECT_DIR$/.idea/chenjiajin_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/use_sms_ser/jowim-jm.iml" filepath="$PROJECT_DIR$/use_sms_ser/jowim-jm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/use_sms_ser/jowim-jm-web/jowim-jm-web.iml" filepath="$PROJECT_DIR$/use_sms_ser/jowim-jm-web/jowim-jm-web.iml" />
+    </modules>
+  </component>
+</project>

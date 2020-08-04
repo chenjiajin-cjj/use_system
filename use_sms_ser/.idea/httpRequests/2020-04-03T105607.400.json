@@ -1,0 +1,7 @@
+{
+  "timestamp": "2020-04-03T02:56:07.247+0000",
+  "status": 400,
+  "error": "Bad Request",
+  "message": "Required request body is missing: public java.lang.String com.jowim.controller.UseSms.restartTomcat(java.lang.String) throws java.lang.Exception",
+  "path": "/restart_tomcat"
+}

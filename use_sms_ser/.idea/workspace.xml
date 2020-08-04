@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="jowim-jm-web:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a828620-b6bd-4bb8-b76e-93fb332f720a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/controller/UseGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/controller/UseSms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-cache/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-cache/src/main/java/com/jowim/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-cache/src/main/java/com/jowim/config/RedisEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-cache/src/main/java/com/jowim/service/IRedisCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-cache/src/main/java/com/jowim/service/impl/RedisCacheImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-cache/src/main/java/com/jowim/utils/SerializerUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/controller/JobApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/controller/JobCodeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/controller/JobGroupController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/controller/JobInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/controller/JobLogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/controller/annotation/PermessionLimit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/controller/interceptor/CookieInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/controller/interceptor/PermissionInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/controller/resolver/WebExceptionResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/conf/XxlJobAdminConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/jobbean/RemoteHttpJobBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/model/XxlJobGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/model/XxlJobInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/model/XxlJobLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/model/XxlJobLogGlue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/model/XxlJobRegistry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/route/ExecutorRouteStrategyEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/route/ExecutorRouter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/route/strategy/ExecutorRouteBusyover.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/route/strategy/ExecutorRouteConsistentHash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/route/strategy/ExecutorRouteFailover.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/route/strategy/ExecutorRouteFirst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/route/strategy/ExecutorRouteLFU.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/route/strategy/ExecutorRouteLRU.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/route/strategy/ExecutorRouteLast.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/route/strategy/ExecutorRouteRandom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/route/strategy/ExecutorRouteRound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/schedule/XxlJobDynamicScheduler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/thread/JobFailMonitorHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/thread/JobRegistryMonitorHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/thread/JobTriggerPoolHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/trigger/XxlJobTrigger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/util/CookieUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/util/FtlUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/util/I18nUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/util/LocalCacheUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/core/util/MailUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/dao/XxlJobGroupDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/dao/XxlJobInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/dao/XxlJobLogDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/dao/XxlJobLogGlueDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/dao/XxlJobRegistryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/service/XxlJobService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/service/impl/AdminBizImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/java/com/jowim/service/impl/XxlJobServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/resources/freemarker.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/resources/i18n/message.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/resources/i18n/message_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/resources/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/resources/mybatis-mapper/XxlJobGroupMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/resources/mybatis-mapper/XxlJobInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/resources/mybatis-mapper/XxlJobLogGlueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/resources/mybatis-mapper/XxlJobLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/resources/mybatis-mapper/XxlJobRegistryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/resources/quartz.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/resources/spring/applicationcontext-base.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/resources/spring/applicationcontext-xxl-job-admin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/resources/spring/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/resources/spring/springmvc-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/resources/xxl-job-admin.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/WEB-INF/template/common/common.exception.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/WEB-INF/template/common/common.macro.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/WEB-INF/template/help.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/WEB-INF/template/index.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/WEB-INF/template/jobcode/jobcode.index.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/WEB-INF/template/jobgroup/jobgroup.index.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/WEB-INF/template/jobinfo/jobinfo.index.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/WEB-INF/template/joblog/joblog.detail.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/WEB-INF/template/joblog/joblog.index.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/WEB-INF/template/login.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/AdminLTE-local.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/AdminLTE.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/M2Jd71oPJhLKp0zdtTvoM40tgx99jmYGv_xzYuwd1rU.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/M2Jd71oPJhLKp0zdtTvoM7YHq4FgHI02B8rPccK0FJQ.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/M2Jd71oPJhLKp0zdtTvoMxgy2Fsj5sj3EzlXpqVXRKo.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/ODelI1aHBYDBqgeIAH2zlC2Q8seG17bfDXYR_jUsrzg.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/ODelI1aHBYDBqgeIAH2zlNOAHFN6BivSraYkjhveRHY.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/ODelI1aHBYDBqgeIAH2zlNOAHFN6BivSraYkjhveRHY[0].woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6CzM2XYAq8cDhaXsrN8WXcA.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6E78GtRp3lhchupCJNw8t58.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6GQKuzMuncr0JB710wa2dPI.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6Lpx497t94oDua8KfAL9f-E.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6MAjkyiewWYrWZc50I8hK7I.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6OXKTZYPNtG1yMB_YJSqlic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGCOFnW3Jk0f09zW_Yln67Ac.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGClYwVOhDRq2vbpGRTZ7bbs.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGDRVvBvQIc1z78c__uoBcyI.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGD_j0nMiB9fPhg_k1wdK2h0.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGDovqjS_dXPZszO_XltPdNg.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGEo0As1BFRXtCDhS66znb_k.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGFKFh1TDTPrUZWzVp6FtpG8.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGFxe-GPfKKFmiXaJ_Q0GFr8.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGOode0-EuMkY--TSyExeINg.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/google-local/local.google.fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/css/skins/_all-skins.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/dist/js/app.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/datatables/dataTables.bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/datatables/dataTables.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/datatables/images/sort_asc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/datatables/images/sort_asc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/datatables/images/sort_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/datatables/images/sort_desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/datatables/images/sort_desc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/datatables/jquery.dataTables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/datatables/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/datatables/jquery.dataTables_themeroller.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/daterangepicker/daterangepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/daterangepicker/daterangepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/daterangepicker/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/fastclick/fastclick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/icheck.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/square.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/square@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/iCheck/square/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/jQuery/jquery-2.2.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/adminlte/plugins/slimScroll/jquery.slimscroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/js/common.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/js/jobcode.index.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/js/jobgroup.index.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/js/jobinfo.index.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/js/joblog.detail.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/js/joblog.index.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/js/login.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/codemirror/addon/hint/anyword-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/codemirror/addon/hint/show-hint.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/codemirror/addon/hint/show-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/codemirror/lib/codemirror.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/codemirror/lib/codemirror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/codemirror/mode/clike/clike.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/codemirror/mode/javascript/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/codemirror/mode/php/php.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/codemirror/mode/python/python.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/codemirror/mode/shell/shell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/echarts/echarts.common.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/font-awesome-4.5.0/css/font-awesome.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/font-awesome-4.5.0/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/font-awesome-4.5.0/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/ionicons-2.0.1/css/ionicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/ionicons-2.0.1/fonts/ionicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/ionicons-2.0.1/fonts/ionicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/ionicons-2.0.1/fonts/ionicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/ionicons-2.0.1/fonts/ionicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/jquery/jquery.cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/jquery/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/layer/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/layer/skin/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/layer/skin/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/layer/skin/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/layer/skin/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/layer/skin/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/layer/skin/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/pace/pace.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/pace/themes/pace-theme-bounce.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/main/webapp/static/plugins/pace/themes/pace-theme-flash.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/test/java/com/help/XxlJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/test/java/com/help/job说明.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/test/java/com/jowim/job/mysql/XXL-JOB官方文档.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/test/java/com/jowim/job/mysql/XXL-JOB架构图.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/src/test/java/com/jowim/job/mysql/db/tables_xxl_job.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/biz/AdminBiz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/biz/ExecutorBiz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/biz/impl/ExecutorBizImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/biz/model/HandleCallbackParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/biz/model/JobParams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/biz/model/LogResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/biz/model/RegistryParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/biz/model/ReturnT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/biz/model/TriggerParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/client/JobClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/client/JobDeploy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/enums/ExecutorBlockStrategyEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/enums/JobGroupId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/enums/RegistryConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/executor/XxlJobExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/glue/GlueFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/glue/GlueTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/handler/IJobHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/handler/annotation/JobHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/handler/impl/GlueJobHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/handler/impl/ScriptJobHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/log/XxlJobFileAppender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/log/XxlJobLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/rpc/codec/RpcRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/rpc/codec/RpcResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/rpc/netcom/NetComClientProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/rpc/netcom/NetComServerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/rpc/netcom/jetty/client/JettyClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/rpc/netcom/jetty/server/JettyServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/rpc/netcom/jetty/server/JettyServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/rpc/serialize/HessianSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/thread/ExecutorRegistryThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/thread/JobLogFileCleanThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/thread/JobThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/thread/TriggerCallbackThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/util/AdminApiUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/util/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/util/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/util/HttpClientUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/util/IpUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/util/JacksonUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/util/NetUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/util/ScriptUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/src/main/java/com/jowim/util/ShardingUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-mq/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-mq/src/main/java/com/jowim/config/EnableActiveMQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-mq/src/main/java/com/jowim/config/activeMQConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-mq/src/main/java/com/jowim/config/activeMQDeploy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-mq/src/main/java/com/jowim/service/IActiveMQService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-mq/src/main/java/com/jowim/service/impl/ActiveMQServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-mq/src/test/java/com/jowim/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/main/java/com/jowim/ActionEnter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/main/java/com/jowim/ConfigManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/main/java/com/jowim/Encoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/main/java/com/jowim/PathFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/main/java/com/jowim/appssd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/main/java/com/jowim/define/ActionMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/main/java/com/jowim/define/ActionState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/main/java/com/jowim/define/AppInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/main/java/com/jowim/define/BaseState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/main/java/com/jowim/define/FileType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/main/java/com/jowim/define/MIMEType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/main/java/com/jowim/define/MultiState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/main/java/com/jowim/define/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/main/java/com/jowim/hunter/FileManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/main/java/com/jowim/hunter/ImageHunter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/main/java/com/jowim/upload/Base64Uploader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/main/java/com/jowim/upload/BinaryUploader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/main/java/com/jowim/upload/StorageManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/main/java/com/jowim/upload/Uploader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/main/resources/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/src/test/java/com/jowim/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/constant/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/constant/ResultConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/tool/FavoritesHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/util/AnalysisJson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/util/BeanToMapUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/util/BenNoEmpty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/util/CnToStrokeCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/util/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/util/EmailAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/util/GuidGeneratorUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/util/HttpClientUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/util/ImportExcelUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/util/MdFive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/util/PinyinUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/util/SerializerUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/util/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/util/ThumbnailsImg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/util/UploadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/util/XmlUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/java/com/jowim/util/ZHConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/resources/ComplexConverter.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/main/resources/SimplifiedConverter.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/src/test/java/com/jowim/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jowim-jm-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/config/MybatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/config/XxlJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/entity/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/entity/Advertising.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/entity/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/entity/ArtistMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/entity/Dictionaries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/entity/Index.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/entity/Navigation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/entity/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/entity/Site.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/entity/SystemLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/mapper/AdminMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/mapper/AdvertisingMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/mapper/ArticleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/mapper/ArtistMessageMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/mapper/DictionariesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/mapper/IndexMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/mapper/NavigationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/mapper/ProductMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/mapper/SiteMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/mapper/SystemLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/service/IAdminService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/service/IAdvertisingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/service/IArticleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/service/IArtistMessageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/service/IDictionariesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/service/IIndexService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/service/INavigationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/service/IProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/service/ISiteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/service/ISystemLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/service/impl/AdminServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/service/impl/AdvertisingServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/service/impl/ArticleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/service/impl/ArtistMessageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/service/impl/DictionariesServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/service/impl/IndexServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/service/impl/NavigationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/service/impl/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/service/impl/SiteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/service/impl/SystemLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/AccessToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/AccessTokenAop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/ApplicationUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/AvoidRepeatableCommit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/AvoidRepeatableCommitAop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/DateFormatEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/MethodJurisdicionAop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/MethodJurisdiction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/MethodLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/MethodLogAop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/PageUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/ResponseMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/Splits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/TPOS/JOB/DemoJobHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/TPOS/MQ/MsgReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/TPOS/UEDITOR/UEditorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/TaskManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/WebLogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/htmlutil/BeetlHtmlUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/htmlutil/HtmlObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/htmlutil/HtmlStaticServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/htmlutil/HtmlThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/imgUtil/FileImgController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/imgUtil/IImgService/IFileImgService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/imgUtil/IImgService/ImgServiceImpl/FileImgServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/imgUtil/ImgConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/util/imgUtil/img/error.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/web/AbstractUrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/web/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/web/AdvertisingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/web/ArticleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/web/ArtistMessageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/web/DictionariesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/web/NavigationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/web/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/web/SiteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/web/SystemLogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/web/index.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jowim-jm-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/resources/mapper/AdminMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/resources/mapper/AdvertisingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/resources/mapper/ArticleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/resources/mapper/ArtistMessageMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/resources/mapper/DictionariesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/resources/mapper/IndexMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/resources/mapper/NavigationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/resources/mapper/ProductMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/resources/mapper/SiteMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/main/resources/mapper/SystemLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jowim-jm-web/src/test/java/com/jowim/mphelp/MpGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/jowim-jm-common/target/" />
+    <ignored path="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-admin/target/" />
+    <ignored path="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/job-core/target/" />
+    <ignored path="$PROJECT_DIR$/jowim-jm-common/jowim-jm-job/target/" />
+    <ignored path="$PROJECT_DIR$/jowim-jm-common/jowim-jm-cache/target/" />
+    <ignored path="$PROJECT_DIR$/jowim-jm-common/jowim-jm-mq/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/jowim-jm-common/jowim-jm-utils/target/" />
+    <ignored path="$PROJECT_DIR$/jowim-jm-common/jowim-jm-ueditor/target/" />
+    <ignored path="$PROJECT_DIR$/jowim-jm-web/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2670">
+              <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/controller/UseSms.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1950">
+              <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/controller/UseGet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="35" column="50" lean-forward="true" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#918#919#0" expanded="true" />
+                <element signature="e#1120#1121#0" expanded="true" />
+                <element signature="e#1226#1227#0" expanded="true" />
+                <element signature="e#1294#1295#0" expanded="true" />
+                <element signature="e#1379#1380#0" expanded="true" />
+                <element signature="e#1448#1449#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jowim-jm-web/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>61.154.11.192:8081/components_services/send_text_message/send_single_message.do`</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/jowim-jm-web/pom.xml" />
+        <option value="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/controller/Test.java" />
+        <option value="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/Application.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/jowim-jm-web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/controller/UseSms.java" />
+        <option value="$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/controller/UseGet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="use_sms_ser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="use_sms_ser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="use_sms_ser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="use_sms_ser" type="462c0819:PsiDirectoryNode" />
+              <item name="jowim-jm-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="use_sms_ser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="use_sms_ser" type="462c0819:PsiDirectoryNode" />
+              <item name="jowim-jm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="use_sms_ser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="use_sms_ser" type="462c0819:PsiDirectoryNode" />
+              <item name="jowim-jm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="use_sms_ser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="use_sms_ser" type="462c0819:PsiDirectoryNode" />
+              <item name="jowim-jm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="use_sms_ser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="use_sms_ser" type="462c0819:PsiDirectoryNode" />
+              <item name="jowim-jm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jowim" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="use_sms_ser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="use_sms_ser" type="462c0819:PsiDirectoryNode" />
+              <item name="jowim-jm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jowim" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="use_sms_ser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="use_sms_ser" type="462c0819:PsiDirectoryNode" />
+              <item name="jowim-jm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="use_sms_ser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="use_sms_ser" type="462c0819:PsiDirectoryNode" />
+              <item name="jowim-jm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="use_sms_ser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="use_sms_ser" type="462c0819:PsiDirectoryNode" />
+              <item name="jowim-jm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/restart_tomcat" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jowim.controller.Test" />
+      <module name="jowim-jm-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jowim.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/Application.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jowim-jm-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jowim.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.Application#1" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a828620-b6bd-4bb8-b76e-93fb332f720a" name="Default Changelist" comment="" />
+      <created>1585881393321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585881393321</updated>
+      <workItem from="1585881394749" duration="6736000" />
+      <workItem from="1591438200280" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6745000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21002132" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5016251" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3846154" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="RestServices" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jowim-jm-web/src/test/java/com/jowim/mphelp/MpGenerator.java" />
+    <entry file="file://$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/controller/Test.java" />
+    <entry file="file://$PROJECT_DIR$/jowim-jm-web/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.28/tomcat-embed-core-8.5.28.jar!/org/apache/tomcat/util/net/SocketProcessorBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/cn/hutool/hutool-all/5.2.5/hutool-all-5.2.5.jar!/cn/hutool/core/util/RuntimeUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2670">
+          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/controller/UseSms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jowim-jm-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jowim-jm-web/src/main/java/com/jowim/controller/UseGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="35" column="50" lean-forward="true" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1294#1295#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
